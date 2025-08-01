@@ -1,28 +1,28 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+このファイルは、Claude Code (claude.ai/code) がこのリポジトリのコードを扱う際のガイダンスを提供します。
 
-## Repository Status
+## リポジトリの状況
 
-This is a new repository named "claude-code-cookbook" with minimal setup. The repository currently contains:
-- `.claude/settings.local.json` - Claude Code permissions configuration
-- `.git/` - Git repository metadata
+これは「claude-code-cookbook」という名前の新しいリポジトリで、最小限の設定が行われています。現在、リポジトリには以下が含まれています：
+- `.claude/settings.local.json` - Claude Code権限設定
+- `.git/` - Gitリポジトリメタデータ
 
-## Claude Code Configuration
+## Claude Code設定
 
-The repository has Claude Code permissions configured in `.claude/settings.local.json` with the following allowed commands:
+リポジトリでは`.claude/settings.local.json`にClaude Code権限が設定されており、以下のコマンドが許可されています：
 - `Bash(find:*)`
 - `Bash(ls:*)`
 
-## Development Setup
+## 開発環境セットアップ
 
-This repository appears to be intended as a cookbook or collection of examples. Once project files are added, this document should be updated with:
-- Build commands
-- Test execution commands  
-- Linting and formatting commands
-- Project architecture overview
-- Key development patterns and conventions
+このリポジトリはクックブックまたはサンプル集として使用される予定のようです。プロジェクトファイルが追加されたら、このドキュメントを以下の内容で更新してください：
+- ビルドコマンド
+- テスト実行コマンド
+- リントおよびフォーマットコマンド
+- プロジェクトアーキテクチャの概要
+- 主要な開発パターンと規約
 
-## Notes for Future Development
+## 今後の開発に関する注意事項
 
-When adding code to this repository, update this CLAUDE.md file to include relevant development commands and architectural guidance specific to the chosen technology stack and project structure.
+このリポジトリにコードを追加する際は、選択した技術スタックとプロジェクト構造に応じた関連する開発コマンドとアーキテクチャガイダンスを含めるよう、このCLAUDE.mdファイルを更新してください。
